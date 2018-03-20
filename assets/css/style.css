@@ -1,0 +1,670 @@
+h2{
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+h3{
+  display: block;
+  margin:0px;
+  position: relative;
+}
+
+.title-name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.resume-font{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #333;
+}
+
+a {
+    color: #333;
+}
+
+.resume-location{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.animation-font{
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  text-size-adjust: 100%;
+}
+
+span.grey{
+  color: #A9A9A9;
+}
+
+span.small-grey{
+  color: #BFBFBF;
+  font-size: 14px;
+}
+
+span.margin{
+  margin-right: 10px;
+}
+
+/*first div*/
+.outer-body{
+  padding: 50px;
+}
+
+.subtitles{
+  display: flex;
+  padding-top: 160px;
+}
+
+.social-media{
+  grid-area: social;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+  padding-top: 160px;
+}
+
+.dashboard {
+    /* Part 2 */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+      "header content"
+      "selected social";
+}
+
+#header{
+  grid-area: header;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+#block1{
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.block3{
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  width: 45%;
+}
+
+.subheader{
+  grid-area: header;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 55%;
+}
+
+.subheader-2{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 57%;
+  padding-top: 50px;
+}
+
+.block2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  padding-top: 50px;
+}
+
+.contact-cc{
+  display: flex;
+  flex-direction: row;
+}
+
+/*second div*/
+.header-box{
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  height: 100px;
+  padding-left: 50px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.letter{
+  position: relative;
+  margin: 0 100px 0 0;
+}
+
+/*animation container*/
+.animation-container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  position: relative;
+  height: 40px;
+  border-top: 1px solid #ebebeb;
+}
+
+/*animation*/
+.scroll-left {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 38px;
+  overflow: hidden;
+  position: relative;
+  color: #333;
+}
+
+.scroll-left .p1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+}
+
+
+.scroll-left .p2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+
+}
+
+
+.scroll-left .f1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+
+}
+
+.scroll-left .f2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
+
+}
+
+.scroll-left .z1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 2.75s;
+  animation-delay: 2.75s;
+
+}
+
+.scroll-left .z2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 10.75s;
+  animation-delay: 10.75s;
+
+}
+
+.scroll-left .p3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+
+}
+
+.scroll-left .p4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size:12px;
+  margin: 0;
+  right: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 14s linear infinite;
+  -webkit-animation: scroll-left 14s linear infinite;
+  animation: scroll-left 20s linear infinite;
+  -webkit-animation-delay: 17s;
+  animation-delay: 17s;
+
+}
+
+/* Move it (define the animation) */
+
+@-moz-keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+    /* Browser bug fix */
+
+    -webkit-transform: translateX(100%);
+    /* Browser bug fix */
+
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    /* Browser bug fix */
+
+    -webkit-transform: translateX(-100%);
+    /* Browser bug fix */
+
+    transform: translateX(-100%);
+  }
+}
+
+/* UI animation container */
+.ui-container{
+  position: relative;
+  display: block;
+}
+
+.img-container{
+  display: inline-block;
+  position: relative;
+  margin: 0 3px 0 0;
+  width: 100%;
+  height: 400px;
+  vertical-align: top;
+  border-top: 1px solid #ebebeb;
+}
+
+.img-box{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+
+img.resize{
+  display: flex;
+  padding-left: 5px;
+  max-width: 350px;
+  max-height: 400px;
+}
+
+img.isometric{
+  display: flex;
+  padding-left: 5px;
+  max-width: 700px;
+  max-height: 400px;
+}
+
+/*image animation*/
+.first {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
+         -webkit-animation-delay: 0.1s;
+         animation-delay: 0.1s;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -1590px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1590px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1590px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1590px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1590px;
+ }
+
+}
+
+/*skill animation text*/
+
+.scroll-right .g1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  left: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-right 16s linear infinite;
+  -webkit-animation: scroll-right 16s linear infinite;
+  animation: scroll-right 20s linear infinite;
+
+}
+
+.scroll-right .g2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  left: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-right 16s linear infinite;
+  -webkit-animation: scroll-right 16s linear infinite;
+  animation: scroll-right 20s linear infinite;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+
+}
+
+.scroll-right .g3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  left: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-right 16s linear infinite;
+  -webkit-animation: scroll-right 16s linear infinite;
+  animation: scroll-right 20s linear infinite;
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s;
+
+}
+
+.scroll-right .g4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  left: 20px;
+  text-align: center;
+  white-space:nowrap;
+  /* Starting position */
+
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-right 16s linear infinite;
+  -webkit-animation: scroll-right 16s linear infinite;
+  animation: scroll-right 20s linear infinite;
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+
+}
+
+@-moz-keyframes scroll-right {
+  0% {
+    -moz-transform: translateX(-100%);
+  }
+  100% {
+    -moz-transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes scroll-right {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    -moz-transform: translateX(-100%);
+    /* Browser bug fix */
+
+    -webkit-transform: translateX(-100%);
+    /* Browser bug fix */
+
+    transform: translateX(-100%);
+  }
+  100% {
+    -moz-transform: translateX(100%);
+    /* Browser bug fix */
+
+    -webkit-transform: translateX(100%);
+    /* Browser bug fix */
+
+    transform: translateX(100%);
+  }
+}
+
+/*Contact*/
+.contact-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid #ebebeb;
+}
+
+.contact{
+  padding: 50px 50px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  display: block;
+}
