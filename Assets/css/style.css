@@ -144,9 +144,31 @@ span.margin{
   align-items: center;
 }
 
+.inner-box{
+  background-color: white;
+  height: 100px;
+  padding-left: 50px;
+}
+
+.inner-box:hover{
+  opacity: 0.4;
+}
+
 .letter{
   position: relative;
   margin: 0 100px 0 0;
+}
+
+.rotator{
+  display: flex;
+  height: 100px;
+  padding-left: 50px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.rotator:hover{
+  font-size: 36px;
 }
 
 /*animation container*/
@@ -668,4 +690,8 @@ img.isometric{
   position: relative;
   width: 100%;
   display: block;
+}
+
+a:hover{
+  color: #bfbfbf;
 }
