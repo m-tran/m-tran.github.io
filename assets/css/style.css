@@ -152,6 +152,7 @@ span.margin{
 
 .inner-box:hover{
   opacity: 0.4;
+  cursor: pointer;
 }
 
 .letter{
@@ -169,6 +170,7 @@ span.margin{
 
 .rotator:hover{
   font-size: 36px;
+  cursor: pointer;
 }
 
 /*animation container*/
@@ -694,4 +696,5 @@ img.isometric{
 
 a:hover{
   color: #bfbfbf;
+  cursor: pointer;
 }
