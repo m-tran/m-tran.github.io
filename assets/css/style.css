@@ -452,6 +452,16 @@ span.margin{
   border-top: 1px solid #ebebeb;
 }
 
+.img-container-2{
+  display: inline-block;
+  position: relative;
+  margin: 0 3px 0 0;
+  width: 100%;
+  height: 300px;
+  vertical-align: top;
+  border-top: 1px solid #ebebeb;
+}
+
 .img-box{
   position: absolute;
   display: flex;
@@ -459,6 +469,17 @@ span.margin{
   overflow: hidden;
   width: 100%;
   height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.img-box-2{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
   top: 0;
   left: 0;
 }
@@ -483,6 +504,15 @@ img.screenshot{
   max-width: 3500px;
   max-height: 400px;
 }
+
+img.tweet{
+  display: flex;
+  padding-left: 5px;
+  max-width: 10000px;
+  max-height: 300px;
+}
+
+
 
 /*image animation*/
 .first {
