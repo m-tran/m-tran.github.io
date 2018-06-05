@@ -477,6 +477,13 @@ img.isometric{
   max-height: 400px;
 }
 
+img.screenshot{
+  display: flex;
+  padding-left: 5px;
+  max-width: 3500px;
+  max-height: 400px;
+}
+
 /*image animation*/
 .first {
  -webkit-animation: bannermove 30s linear infinite;
@@ -498,7 +505,7 @@ img.isometric{
 
 }
 
-@-moz-keyframes bannermove {
+@-moz-keyframes "bannermove" {
  0% {
    margin-left: 0px;
  }
@@ -534,6 +541,127 @@ img.isometric{
  }
  100% {
    margin-left: -1590px;
+ }
+
+}
+
+/*bannermove right*/
+.second {
+ -webkit-animation: bannermove_r 30s linear infinite;
+    -moz-animation: bannermove_r 30s linear infinite;
+     -ms-animation: bannermove_r 30s linear infinite;
+      -o-animation: bannermove_r 30s linear infinite;
+         animation: bannermove_r 30s linear infinite;
+         -webkit-animation-delay: 0.1s;
+         animation-delay: 0.1s;
+}
+
+@keyframes "bannermove_r" {
+ 0% {
+    margin-left: -2075px;
+ }
+ 100% {
+    margin-left: 0px;
+ }
+
+}
+
+@-moz-keyframes "bannermove_r" {
+ 0% {
+   margin-left: -2075px;
+ }
+ 100% {
+   margin-left: 0px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove_r" {
+ 0% {
+   margin-left: -2075px;
+ }
+ 100% {
+   margin-left: 0px;
+ }
+
+}
+
+@-ms-keyframes "bannermove_r" {
+ 0% {
+   margin-left: -2075px;
+ }
+ 100% {
+   margin-left: 0px;
+ }
+
+}
+
+@-o-keyframes "bannermove_r" {
+ 0% {
+   margin-left: -2075px;
+ }
+ 100% {
+   margin-left: 0px;
+ }
+
+}
+
+.third {
+ -webkit-animation: bannermove_3 30s linear infinite;
+    -moz-animation: bannermove_3 30s linear infinite;
+     -ms-animation: bannermove_3 30s linear infinite;
+      -o-animation: bannermove_3 30s linear infinite;
+         animation: bannermove_3 30s linear infinite;
+         -webkit-animation-delay: 0.1s;
+         animation-delay: 0.1s;
+}
+
+@keyframes "bannermove_3" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2220px;
+ }
+
+}
+
+@-moz-keyframes "bannermove_3" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2220px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove_3" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2220px;
+ }
+
+}
+
+@-ms-keyframes "bannermove_3" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2220px;
+ }
+
+}
+
+@-o-keyframes "bannermove_3" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2220px;
  }
 
 }
@@ -697,4 +825,8 @@ img.isometric{
 a:hover{
   color: #bfbfbf;
   cursor: pointer;
+}
+
+a:active{
+  color: #3066be;
 }
