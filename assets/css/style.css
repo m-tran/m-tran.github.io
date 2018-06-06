@@ -153,6 +153,7 @@ span.margin{
 .inner-box:hover{
   opacity: 0.4;
   cursor: pointer;
+  font-size: 36px;
 }
 
 .letter{
@@ -168,9 +169,43 @@ span.margin{
   align-items: center;
 }
 
-.rotator:hover{
-  font-size: 36px;
-  cursor: pointer;
+/*hover boxes*/
+.hover-box {
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+/*arrow*/
+.arrow-box{
+  border-top: 1px solid #ebebeb;
+  height: 100px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+
+.arrow{
+  display: flex;
+  height: 75px;
+  width: 75px;
+  align-items:center;
+  justify-content:center;
+}
+
+.arrow-u {
+  display: none;
+}
+
+.arrow-s {
+  display: flex;
+}
+
+.arrow-grid{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
 }
 
 /*animation container*/
