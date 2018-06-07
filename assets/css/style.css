@@ -15,6 +15,12 @@ h3{
   color: #333;
 }
 
+li {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-size: 12px;
+}
+
 .resume-font{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;

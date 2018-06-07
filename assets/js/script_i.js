@@ -54,5 +54,38 @@ $(document).ready(function() {
       $("#c-container").css("display", "none")
   });
 
+  $('#webTicker-a').webTicker({
+    height: '41px',
+    speed: '100',
+    startEmpty: 'false',
+    duplicate: 'true',
+    hoverpause: 'false',
+  });
+
+  $('#webTicker-b').webTicker({
+    height: '41px',
+    speed: '100',
+    startEmpty: 'false',
+    duplicate: 'true',
+    hoverpause: 'false',
+    direction: 'right'
+  });
+
+  $('#webTicker-c').webTicker({
+    height: '41px',
+    speed: '100',
+    startEmpty: 'false',
+    duplicate: 'true',
+    hoverpause: 'false',
+  });
+
+  $('#webTicker-d').webTicker({
+    height: '41px',
+    speed: '100',
+    startEmpty: 'false',
+    duplicate: 'true',
+    hoverpause: 'true',
+    direction: 'right'
+  });
 
 })
