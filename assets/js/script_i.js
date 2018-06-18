@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+/**hover effect**/
   $("#a").mouseover(
     function() {
       $("#a-s").css("display", "none");
@@ -54,6 +55,25 @@ $(document).ready(function() {
       $("#c-container").css("display", "none")
   });
 
+  $("#d").mouseover(
+    function() {
+      $("#d-s").css("display", "none");
+      $("#d-u").css("display", "flex");
+      $("cursor").css("cursor", "pointer");
+      $("#d-text").css("font-size", "36px");
+      $("#d-container").css("display", "inline-block")
+  });
+
+  $("#d").mouseout(
+    function() {
+      $("#d-s").css("display", "flex");
+      $("#d-u").css("display", "none");
+      $("cursor").css("cursor", "pointer");
+      $("#d-text").css("font-size", "24px");
+      $("#d-container").css("display", "none")
+  });
+
+/**animation effect**/
   $('#webTicker-a').webTicker({
     height: '41px',
     speed: '100',
@@ -86,6 +106,14 @@ $(document).ready(function() {
     duplicate: 'true',
     hoverpause: 'true',
     direction: 'right'
+  });
+
+  $('#webTicker-e').webTicker({
+    height: '41px',
+    speed: '100',
+    startEmpty: 'false',
+    duplicate: 'true',
+    hoverpause: 'false',
   });
 
 
